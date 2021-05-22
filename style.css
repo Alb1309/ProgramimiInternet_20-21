@@ -1,0 +1,427 @@
+* {
+    color: white;
+    font-family: Ubuntu;
+    cursor: default;
+    box-sizing: border-box
+}
+
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+body {
+    background-color: rgba(0, 0, 0, 0.872);
+}
+/* body {
+  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                    linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                    linear-gradient(-45deg, transparent 75%, black 80%, transparent 0);
+                   
+  background-size: 30px 30px, 30px 30px;
+}
+*/
+#header {
+  position: fixed;
+  width: 100vw;
+  justify-content: space-between;
+  z-index: 20000;
+  background-color: #2b3036;
+}
+#headers {
+  position: fixed;
+  width: 100vw;
+  justify-content: space-between;
+  z-index: 20000;
+  background-color: #2b303688;
+  margin-top: 50px;
+}
+#tps{
+    text-align: center;
+  margin-right: 10%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    padding: 8px;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.HomeWaveTop {
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  z-index: 50;
+}
+
+
+
+#tpl{
+    margin: 2px;
+width: 120px;
+    height: auto;
+background-color: rgb(207, 14, 14);
+    border-color: white;
+    border-radius: 50px;
+}
+
+.slideshow-container {
+    max-width: 3000px;
+    position: relative;
+    margin: auto;
+    
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(11, 9, 9);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  @media only screen and (max-width: 1023px) {
+.HomeWaveBottom, .HomeWaveTop {
+    display: none;
+}
+  
+.HomeWaveTop {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.HomeWaveBottom, .HomeWaveTop {
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+}
+.GlobalMouseDown, .GlobalMouseDown * {
+    outline: none!important;
+}
+img {
+    max-width: 100%;
+    border-style: none;
+}
+* {
+    color: inherit;
+    font-family: Ubuntu;
+    cursor: default;
+}
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    color: #fff;
+}
+
+}
+
+.HomeMiddle {
+  position: relative;
+  z-index: 1300;
+  padding-top: 0px;
+  padding-bottom: 45px;
+}
+@media only screen and (max-width: 1279px) {
+.HomeLineWrapper, .HomeMiddle .HomeSideInformation, .HomeStartButton {
+    display: none;
+}
+.HomeLineWrapper {
+    width: 847px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.GlobalMouseDown, .GlobalMouseDown * {
+    outline: none!important;
+}
+
+}
+#footer {
+  display: flex;
+  background-color: #11181f;
+}
+.left{
+  width: 33.333%;
+  text-align: center;
+  padding-left: 9px;
+  white-space: pre-line;
+  display: inline-block;
+
+}
+.middle{
+  width: 33.333%;
+  text-align: center;
+  padding-left: 9px;
+  white-space: pre-line;
+  display: inline-block;
+
+}
+.right{
+  width: 33.333%;
+  text-align: center;
+  padding-left: 9px;
+  white-space: pre-line;
+  display: inline-block;
+
+}
+.title {
+  opacity: .5;
+}
+.place {
+  display: flex;
+  text-align: left;
+  margin-left: 40%;
+}
+
+.social {
+  padding-bottom: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+.LocalizedText {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -15%;
+}
+
+.social img{
+  height: 45px;
+}
+.placee {
+  text-align: left;
+  margin-left: 40%;
+  list-style-type: none;
+  margin-top: 6%;
+ 
+}
+form{
+  margin-top: -8%;
+}
+
+
+
+input[type=text] {
+  width: 60%;
+  height: 50px;
+  padding: 12px;
+  margin-top: -15%;
+  margin-left: 25% ;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: inherit;
+  font-family: Ubuntu;
+  cursor: default;
+  font-size: 20px;
+}
+.button{
+  width: 60%;
+  height: 30px;
+  padding: 12px;
+  margin-left: 25% ;
+  margin-top: -25%;
+  border-radius: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: Ubuntu;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: red;
+
+}
+.bb {
+margin-top: -20%;
+}
+.wr{
+  margin-left: 33%;
+  margin-top: -10%;
+  text-align: left;
+  font-family: Ubuntu;
+  cursor: default;
+  font-size: 15px;
+}
+
+
+small{
+  margin-top: 20%; 
+  font-size: 15px;
+}
+.bike {
+  background-image: url(media/bicycle-without-wheels.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 15rem;
+  position: absolute;
+  bottom: 97px;
+  left: 396px;
+  margin-left: 40%;
+  margin-bottom: -5%;
+    z-index: 500;
+}
+.txt {
+  background-image: url(media/eye_catcher.93715d16.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 22rem;
+  height: 7rem;
+  position: absolute;
+  bottom: 17px;
+  left: 26px;
+    z-index: 300;  
+}
+#txt {
+  margin-bottom: 30px;
+  margin-right: 73%;
+  position: absolute;
+  margin-top: 60%;
+  bottom: 17px;
+  left: 66px;
+    z-index: 500;  
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.wheel {
+  position: absolute;
+    z-index: 500;
+  position: absolute;
+  animation: wheelanimation linear .6s infinite;
+}
+
+.wheel1 {
+  background-image: url(media/kisspng-bicycle-wheels-rim-bmx-bike-bicycle-wheel-5b5638b3bb9bc5.7882058015323772677685.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+  bottom: 10px;
+  left: 1145px;
+  z-index: 300;
+
+}
+.wheel2 {
+  background-image: url(media/kisspng-bicycle-wheels-rim-bmx-bike-bicycle-wheel-5b5638b3bb9bc5.7882058015323772677685.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+  bottom: 15px;
+  left: 895px;
+  z-index: 300;
+}
+
+@keyframes wheelanimation{
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.Local{
+z-index: 1000;
+position: absolute;
+text-align: center;
+font-size: 120px;
+margin-left: 30%;
+margin-right: 30%;
+margin-top: 5%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#Local{
+  width: 140px;
+  height: 25px;
+  z-index: 1100;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-top: 38%;
+  background-color: white;
+  color:rgb(11, 9, 9);
+  
+  }
+  .trip {
+    width: 160px;
+  height: 45px;
+  border-radius: 25px;
+  z-index: 1100;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 37.5%;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+
+  }
+  .tripp {
+    width: 160px;
+  height: 45px;
+  border-radius: 25px;
+  z-index: 1100;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-top: 37.5%;
+  background-color: rgb(255, 0, 0);
+  color:rgb(255, 255, 255);
+  border: 1px solid white;
+  }
+
